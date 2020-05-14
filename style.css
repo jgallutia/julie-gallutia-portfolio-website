@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&display=swap');
+/* Add to all CSS files */
+* {
+  box-sizing: border-box;
+}
+/* Background image of the page */
+body {
+  background-image: url("images/white-waves.png");
+}
+/* Header and footer styling */
+header, footer {
+  background-color: #0033A0;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+/* h1 styling */
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
+  margin-bottom: .5em;
+  padding-bottom: 0px;
+}
+/* h2 styling */
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+}
+/* Horizontal rule styling */
+hr {
+  width: 75%;
+}
+/* Fonts for paragraphs and h3 styling */
+p, h3 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+/* About Me div styling */
+.about-me {
+  padding: 5px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+/* ol and ul */
+ol, ul {
+  padding: 8px;
+  margin: 6px;
+  display: inline-block;
+  text-align: left;
+  width: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+/* Adding margin to image for spacing purposes*/
+img {
+  margin: 20px;
+}
+/* Project section styling */
+.project-section {
+  padding: 5px;
+  text-align: center;
+  margin: 50px 0px;
+  font-style: italic;
+}
+
+/* Set footer link colors */
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: white;}
+a:active {color: white;}
