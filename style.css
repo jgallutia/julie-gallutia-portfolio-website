@@ -7,16 +7,9 @@
 body {
   background-image: url("images/white-waves.png");
 }
-/* Header and footer styling */
-.contact-me, .intro {
-  background-color: #0033A0;
-  color: white;
-  padding: 5px;
-  text-align: center;
-  margin: auto;
-}
 
-/* h1 styling */
+/* Styling the elements */
+
 h1 {
   font-family: 'Anton', sans-serif;
 
@@ -25,37 +18,29 @@ h1 {
   padding-bottom: 0px;
   letter-spacing: 1.5px;
 }
-/* h2 styling */
+
 h2 {
   margin-top: 0;
   padding-top: 0;
   font-family: 'Anton', sans-serif;
   font-size: 24px;
+  letter-spacing: 1.5px;  
 }
-/* Horizontal rule styling */
+
 hr {
-  width: 75%;
+  width: 50%;
 }
-/* Fonts for paragraphs and h3 styling */
+
 p, h3 {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
 }
-/* About Me div styling */
-.about-me {
-  padding: 5px;
-  text-align: center;
-  width: 75%;
-  margin: auto;
-}
 
-/* styling the ul bullets */
 ul {
   list-style-type: circle;
 }
 
-/* ol and ul */
 ol, ul {
   padding: 8px;
   margin: 6px;
@@ -67,11 +52,27 @@ ol, ul {
   margin-bottom: 20px;
 }
 
-/* Adding margin to image for spacing purposes*/
 img {
   margin: 20px 0;
 }
-/* Project section styling */
+
+/* Styling the div classes */
+
+.about-me {
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me, .intro {
+  background-color: #0033A0;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+}
+
 .project-section {
   padding: 5px;
   text-align: center;
@@ -79,7 +80,6 @@ img {
   font-style: italic;
 }
 
-/* div formatted so links appear */
 .portfolio-links{
   background-image: url("images/gray_sand.png");
   width: 70%;
