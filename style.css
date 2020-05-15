@@ -8,14 +8,16 @@ body {
   background-image: url("images/white-waves.png");
 }
 /* Header and footer styling */
-header, footer {
+.contact-me, .intro {
   background-color: #0033A0;
   color: white;
   padding: 5px;
   text-align: center;
-  margin: auto;
+  margin: 3% auto;
   width: 75%;
+  border-radius: 30px;
 }
+
 /* h1 styling */
 h1 {
   font-family: 'Anton', sans-serif;
@@ -48,6 +50,7 @@ p, h3 {
   margin: auto;
 }
 
+/* styling the ul bullets */
 ul {
   list-style-type: circle;
 }
@@ -64,17 +67,26 @@ ol, ul {
   margin-bottom: 20px;
 }
 
-
 /* Adding margin to image for spacing purposes*/
 img {
-  margin: 20px;
+  margin: 20px 0;
 }
 /* Project section styling */
 .project-section {
   padding: 5px;
   text-align: center;
-  margin: 50px 0px;
+  margin: 25px 0;
   font-style: italic;
+}
+
+/* div formatted so links appear */
+.portfolio-links{
+  background-image: url("images/gray_sand.png");
+  width: 70%;
+  margin: auto;
+  padding: 15px;
+  border: 0 0 30px 0;
+  border-radius: 30px;
 }
 
 /* Set footer link colors */
