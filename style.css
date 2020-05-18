@@ -12,11 +12,16 @@ body {
 
 h1 {
   font-family: 'Anton', sans-serif;
-
   font-size: 36px;
   margin-bottom: .5em;
   padding-bottom: 0px;
   letter-spacing: 1.5px;
+}
+
+p, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
 h2 {
@@ -24,17 +29,12 @@ h2 {
   padding-top: 0;
   font-family: 'Anton', sans-serif;
   font-size: 24px;
-  letter-spacing: 1.5px;  
+  letter-spacing: 1.5px;
+  text-align: center;
 }
 
 hr {
   width: 50%;
-}
-
-p, h3 {
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
 }
 
 ul {
@@ -94,6 +94,10 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.left-align {
+  text-align: left;
 }
 
 /* Set footer link colors */
